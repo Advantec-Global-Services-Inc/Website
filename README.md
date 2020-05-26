@@ -6,8 +6,8 @@
   - #424250
 - Text Primary
   - #FFFFFF
-- Text Secondary
-  - #ADADAD - Light Grey
+- Text Secondary - Light Grey
+  - #ADADAD 
 - Container - Darker Grey
   - #373740
 - Focus Container - Darkest Grey

@@ -1,4 +1,19 @@
 //Override Boostrap Default Variables
 
-$primary:#2f3c48;
-$secondary:#6f7f8c;
+$body-bg: #424250;
+$body-color: #FFFFFF;
+$primary: #1EB980;
+$orange: #FF6859;
+$yellow: #FFCF44;
+$purple: #B15DFF;
+$blue: #72DEFF;
+$dark: #1E1E1E; //Focus container
+$secondary: #373740; //Container
+$light: #ADADAD; //Secondary Text
+$theme-colors: (
+  "darkPrimary": #045D56,
+  "orange": #FF6859,
+  "yellow": #FFCF44,
+  "purple": #B15DFF,
+  "blue": #72DEFF
+);
