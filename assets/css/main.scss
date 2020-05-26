@@ -1,4 +1,13 @@
 ---
 ---
 @import 'override';
+
+/*! Import Bootstrap 4 variables */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+/*Custom SASS that requires variables goes here */
+
 @import 'bootstrap/bootstrap';
+
+/* Explicit custom CSS goes here */
