@@ -1,0 +1,26 @@
+<header class="navbar navbar-expand navbar-dark flex-column flex-md-row adv-navbar px-0">
+    <div class="container flex-wrap flex-md-nowrap py-0 px-3">
+      <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="AGSI">
+        Logo Placeholder
+      </a>
+  
+      <div class="navbar-nav-scroll order-3 order-md-0 d-flex justify-content-center justify-content-md-start">
+        <ul class="navbar-nav adv-navbar-nav flex-row">
+        {% for link in site.data.linksNav %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ link.uri }}">{{ link.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+  
+      <ul class="navbar-nav ml-sm-auto">
+        <li class="nav-item">
+          <a class="nav-link p-2" href="https://twitter.com/advantecus" target="_blank" rel="noopener" aria-label="Twitter">Twitter</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link p-2" href="https://twitter.com/advantecus" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </header>

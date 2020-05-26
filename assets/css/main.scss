@@ -8,6 +8,132 @@
 
 /*Custom SASS that requires variables goes here */
 
+
 @import 'bootstrap/bootstrap';
 
 /* Explicit custom CSS goes here */
+//
+// Footer
+// 
+  .adv-footer-links {
+    padding-left: 0;
+    margin-bottom: 1rem;
+  
+    li {
+      display: inline-block;
+  
+      + li {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  //
+  // NavBar
+  //
+  .adv-navbar {
+    min-height: 4rem;
+    background-color: $dark;
+  
+    @media (max-width: 991.98px) {
+      .navbar-nav-scroll {
+        width: 100%;
+        height: 2.5rem;
+        margin-top: .25rem;
+        overflow: hidden;
+  
+        .navbar-nav {
+          padding-bottom: 2rem;
+          overflow-x: auto;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    }
+  
+    .navbar-nav {
+      .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        color: rgba($white, .85);
+  
+        &.active,
+        &:hover,
+        &:focus {
+          color: $white;
+          background-color: transparent;
+        }
+  
+        &.active {
+          font-weight: 600;
+        }
+      }
+    }
+  
+    .navbar-nav-svg {
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      vertical-align: text-top;
+    }
+  }
+
+  //
+// Header
+//
+
+.masthead {
+    position: relative;
+    padding: 2rem 1.25rem;
+    font-weight: 300;
+   // color: #cdbfe3;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    //background-image: linear-gradient(lighten(#373740, 10%), #1EB980);
+  
+    @media (min-width: 40em) {
+      padding: 3rem 0 4rem;
+    }
+  
+    a,
+    h1 {
+      font-weight: 400;
+     // color: #fff;
+    }
+  
+    h1 {
+      margin-bottom: .25rem;
+    }
+  
+    p {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+  }
+
+  .adv-subnavbar {
+    background-color: $light;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .15);
+  }
+  .hover-card:hover {
+    box-shadow: 0 1px 15px rgba(27,31,35,0.15);
+    text-decoration: none;
+  }
+  
+  .hover-card {
+    transition: all 0.2s ease-in-out;
+  }
+  .adv-card {
+   // position: relative;
+    //display: flex;
+    flex-direction: row;
+    //min-width: 0;
+   // word-wrap: break-word;
+    background-color: #373740;
+    //background-clip: border-box;
+    border: 1px solid #1E1E1E;
+    border-radius: .25rem;
+}
+.offering-icon {
+    fill: #FFFFFF;
+}
