@@ -28,7 +28,7 @@ timezone: "America/New_York"
 # Build settings
 plugins:
   - jekyll-feed
- # - jekyll-sitemap
+  - jekyll-sitemap
 
 #compile style
 sass:
