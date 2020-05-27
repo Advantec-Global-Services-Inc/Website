@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-=======
 #setup
->>>>>>> 32d7c1d2b0814d3c7a03e878b893d7f4ccf79d59
 title: Advantec Global Services, Inc
 email: info@agsi.us
 description: ""
@@ -29,8 +20,6 @@ plugins:
 #compile style
 sass:
   sass_dir: assets/css
-<<<<<<< HEAD
-=======
   style: compressed
 
 exclude:
@@ -39,4 +28,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
->>>>>>> 32d7c1d2b0814d3c7a03e878b893d7f4ccf79d59
