@@ -1,21 +1,42 @@
+<<<<<<< HEAD
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+=======
+#setup
+>>>>>>> 32d7c1d2b0814d3c7a03e878b893d7f4ccf79d59
 title: Advantec Global Services, Inc
 email: info@agsi.us
-description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: ""
+baseurl: ""
+url: "https://www.advantec.us"
 timezone: "America/New_York"
+permalink: pretty
+
+# Local Server
+host: localhost
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
 
 #compile style
 sass:
   sass_dir: assets/css
+<<<<<<< HEAD
+=======
+  style: compressed
+
+exclude:
+  - .sass-cache
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+>>>>>>> 32d7c1d2b0814d3c7a03e878b893d7f4ccf79d59
