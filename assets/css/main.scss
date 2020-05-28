@@ -72,12 +72,27 @@
   
     .navbar-nav-svg {
       display: inline-block;
-      width: 1rem;
-      height: 1rem;
-      vertical-align: text-top;
+      width: 1.5rem;
+      height: 1.5rem;
+      vertical-align: middle;
     }
   }
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
 
+  .navbar-expand {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
   //
 // Header
 //
