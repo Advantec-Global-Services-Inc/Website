@@ -1,11 +1,17 @@
+- title: Home
+  uri: /
+
 - title: About
   uri: /about
-
-- title: Consulting
-  uri: /consulting
+  
+- title: Team
+  uri: /team
 
 - title: Training
   uri: /training
+
+- title: Services
+  uri: /services
 
 - title: Contact
   uri: /contact
