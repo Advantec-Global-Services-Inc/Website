@@ -89,7 +89,7 @@
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
-    background: #1E1E1E
+    background: #1E1E1E;
   }
 
   #header.header-scrolled,
@@ -129,3 +129,20 @@
    .navbar-dark .navbar-nav .nav-link.active {
     color:#1EB980
    }
+
+   .navbar-brand {
+    display: inline-block;
+    padding-top: 0rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+
+  .post-style-h1{
+      color: #1EB980;
+    }
+  .post-style-h2{
+      color: #72DEFF;
+    }
