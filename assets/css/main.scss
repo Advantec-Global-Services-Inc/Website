@@ -28,20 +28,6 @@
   }
 }
 
-  //
-  // Header
-  //
-
-  .masthead {
-    // position: relative;
-    // padding: 2rem 1.25rem;
-    // font-weight: 300;
-    //  text-align: center;
-    //  text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background: #373740;
-    background: linear-gradient(180deg, rgba(30, 30, 30, 1) 0%, rgba(66, 66, 80, 1) 5%);
-  }
-
   .adv-subnavbar {
     background-color: $light;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .15);
@@ -51,93 +37,10 @@
     text-align: center;
   }
 
-  .hover-card:hover {
-    box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15);
-    text-decoration: none;
-  }
-
-  .hover-card {
-    transition: all 0.2s ease-in-out;
-  }
-
-  .adv-card {
-    // position: relative;
-    //display: flex;
-    flex-direction: row;
-    //min-width: 0;
-    // word-wrap: break-word;
-    background-color: #373740;
-    //background-clip: border-box;
-    border: 1px solid #1E1E1E;
-    border-radius: .25rem;
-  }
-
-  .offering-icon {
-    fill: #FFFFFF;
-  }
-
   .adv-navbar {
     min-height: 4rem;
     background-color: #1E1E1E;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
-  }
-
-  /*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-  #header {
-    transition: all 0.5s;
-    z-index: 997;
-    padding: 15px 0;
-    background: #1E1E1E;
-  }
-
-  #header.header-scrolled,
-  #header.header-inner-pages {
-    background: #1E1E1E;
-  }
-
-  #header .logo {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  #header .logo a {
-    color: #fff;
-  }
-
-  #header .logo img {
-    max-height: 40px;
-  }
-
-  .navbar-dark .navbar-nav .nav-link {
-    color:#FFFFFF
-   }
-   .navbar-dark .navbar-nav .nav-link:hover,
-   .navbar-dark .navbar-nav .nav-link:focus {
-    color:#1EB980
-   }
-   
-   .navbar-dark .navbar-nav .show>.nav-link,
-   .navbar-dark .navbar-nav .active>.nav-link,
-   .navbar-dark .navbar-nav .nav-link.show,
-   .navbar-dark .navbar-nav .nav-link.active {
-    color:#1EB980
-   }
-
-   .navbar-brand {
-    display: inline-block;
-    padding-top: 0rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
   }
 
   .post-style-h1{
