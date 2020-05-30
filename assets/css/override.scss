@@ -1,7 +1,7 @@
-//Override Boostrap Default Variables
+/* Override Boostrap Default Variables */
 
-$body-bg: #424250;
-$body-color: #FFFFFF;
+/* Color Theme */
+
 $primary: #1EB980;
 $orange: #FF6859;
 $yellow: #FFCF44;
@@ -18,15 +18,38 @@ $theme-colors: (
   "purple": #B15DFF,
   "blue": #72DEFF
 );
+$twitter: #00aced;
+$linkedin: #4875b4;
+$github: #4183c4;
+
+/* Body */
+$body-bg: #424250;
+$body-color: #FFFFFF;
+$font-size-base: .875rem; 
+
+/* Drop Down Menu */
 $dropdown-color: #ffffff;
 $dropdown-bg: #373740;
 $dropdown-border-color: #1e1e1e;
 $dropdown-link-color: #ffffff;
-$navbar-brand-padding-y: 0px;
+$dropdown-item-padding-y: .5rem;
+$dropdown-item-padding-x: 1.25rem;
+
+/* Nav Bar */
+$navbar-brand-padding-y: 0;
 $navbar-dark-brand-hover-color: #1EB980;
 $navbar-dark-hover-color: #1EB980;
 $navbar-dark-active-color: #1EB980;
 $navbar-dark-color: #ffffff;
+
+/* Forms */
 $input-color: #000000;
 $input-bg: #ADADAD;
 $input-border-color: #1e1e1e;
+
+/* Card */
+$card-cap-color: #fff;
+$card-cap-bg: #1e1e1e;
+$card-border-color: #1e1e1e;
+$card-color: #fff;
+$card-bg: #373740;

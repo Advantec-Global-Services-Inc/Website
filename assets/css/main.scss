@@ -12,9 +12,8 @@
 @import 'bootstrap/bootstrap';
 
 /* Explicit custom CSS goes here */
-//
-// Footer
-// 
+
+/* Footer */
 .adv-footer-links {
   padding-left: 0;
   margin-bottom: 1rem;
@@ -28,6 +27,7 @@
   }
 }
 
+/* Partners Bar */
   .adv-subnavbar {
     background-color: $light;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .15);
@@ -35,14 +35,17 @@
     overflow: hidden;
     display: block;
     text-align: center;
+    max-height: 50px;
   }
 
+  /* Nav Bar */
   .adv-navbar {
     min-height: 4rem;
     background-color: #1E1E1E;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
   }
 
+  /* Posts - gets formatted by MD*/
   .post-style-h1{
       color: #1EB980;
     }
