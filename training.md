@@ -1,6 +1,6 @@
 ---
 layout: content
 title: Training
-tagline: To keep your sensitive information safe and comply with regulations, it’s critical to protect your entire corporate network—including branches and mobile workers—from existing and potential threats.
+tagline: Equip your teams with the tools and training they need to unlock the full potential of your Citrix solutions. Access to in-depth product knowledge through eLearning, classroom training, and certification programs will help your employees reduce support calls, spend less time troubleshooting, and discover new ways to use your Citrix solutions.
 permalink: /training/
 ---

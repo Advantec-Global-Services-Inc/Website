@@ -1,6 +1,6 @@
 ---
 layout: content
 title: Contact Advantec
-tagline: To keep your sensitive information safe and comply with regulations, it’s critical to protect your entire corporate network—including branches and mobile workers—from existing and potential threats.
+tagline: blah blah blah blah
 permalink: /contact/
 ---
