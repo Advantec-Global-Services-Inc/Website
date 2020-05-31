@@ -1,11 +1,22 @@
 #setup
 title: Advantec Global Services, Inc
-email: info@agsi.us
+tagline: ""
 description: ""
-baseurl: ""
 url: "https://www.advantec.io"
+baseurl: ""
 timezone: "America/New_York"
 permalink: pretty
+author: agsi_jwilson
+email: info@agsi.us
+logo: /assets/img/logo2.svg
+twitter:
+  username: AdvantecUS
+  card: summary
+social:
+  name: Advantec Global Services, Inc
+  links:
+    - https://twitter.com/advantecus
+    - https://www.linkedin.com/company/advantec-global-services-inc
 
 # Local Server
 host: localhost
