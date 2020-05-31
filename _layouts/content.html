@@ -4,11 +4,17 @@
 {% include head.html %}
 
 <body>
-{% include navbar.html %}
-<div class="container mt-5">
-    {{ content }}
-</div>
+    {% include navbar.html %}
+    <div class="container mt-5">
+        <section>
+            <h2 class="font-weight-bold text-center pb-2">{{ page.title }}</h3>
+                <hr class="adv-hr my-4">
+                <p class="lead text-center pt-2 mb-5">{{ page.tagline }}</p>
+                {{ content }}
+        </section>
+    </div>
 
-{% include footer.html %}
+    {% include footer.html %}
 </body>
+
 </html>
