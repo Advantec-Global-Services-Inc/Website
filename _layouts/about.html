@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+    <div class="container mt-5">
+        <section>
+            <h2 class="font-weight-bold text-center pb-2">{{ page.title }}</h3>
+                <hr class="adv-hr my-4">
+                <p class="lead text-center pt-2 mb-5">{{ page.tagline }}</p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="/assets/img/team/keith.jpeg" class="rounded-circle" width="200" height="200">
+                                <h5 class="card-title mt-2 mb-1">Keith Bright</h5>
+                                <span class="fs-2 mb-3 font-weight-bold">President</span>
+                                <p class="mb-3 mt-3">blah blah blah</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="/assets/img/team/jacob.jpg" class="rounded-circle" width="200" height="200">
+                                <h5 class="card-title mt-2 mb-1">Jacob Wilson</h5>
+                                <span class="fs-2 mb-3 font-weight-bold">Vice President</span>
+                                <p class="mb-3 mt-3">blah blah blah</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="/assets/img/team/chantelle.svg" class="rounded-circle" width="200" height="200">
+                                <h5 class="card-title mt-2 mb-1">Chantelle Morales</h5>
+                                <span class="fs-2 mb-3 font-weight-bold">Ninja</span>
+                                <p class="mb-3 mt-3">blah blah blah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>
