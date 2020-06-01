@@ -1,5 +1,5 @@
----
----
+--- 
+--- 
 @import 'override';
 
 /*! Import Bootstrap 4 variables */
@@ -18,6 +18,15 @@
   padding-left: 0;
   margin-bottom: 1rem;
 
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $primary;
+  }
+
   li {
     display: inline-block;
 
@@ -28,33 +37,31 @@
 }
 
 /* Partners Bar */
-  .adv-subnavbar {
-    background-color: $light;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .15);
-    padding: 12px 0;
-    overflow: hidden;
-    display: block;
-    text-align: center;
-  }
+.adv-subnavbar {
+  background-color: $light;
+  padding: 12px 0;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
 
-  /* Nav Bar */
-  .adv-navbar {
-    min-height: 4rem;
-    background-color: #373740;
-   /* background-color: #1E1E1E;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);*/
-  }
+/* Nav Bar */
+.adv-navbar {
+  min-height: 4rem;
+  background-color: #373740;
+}
 
-  /* HR */
-  .adv-hr {
-    width: 3.2rem;
-    border-top: 1px solid #1EB980;
-  }
+/* HR */
+.adv-hr {
+  width: 3.2rem;
+  border-top: 1px solid #1EB980;
+}
 
-  /* Posts - gets formatted by MD*/
-  .post-style-h1{
-      color: #1EB980;
-    }
-  .post-style-h2{
-      color: #72DEFF;
-    }
+/* Posts - gets formatted by MD*/
+.post-style-h1 {
+  color: #1EB980;
+}
+
+.post-style-h2 {
+  color: #72DEFF;
+}
