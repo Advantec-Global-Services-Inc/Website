@@ -36,6 +36,15 @@
   }
 }
 
+.adv-footer-links2 {
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary;
+  }
+}
 /* Partners Bar */
 .adv-subnavbar {
   background-color: $light;
@@ -64,4 +73,13 @@
 
 .post-style-h2 {
   color: #72DEFF;
+}
+
+.mast-title {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.mast-lead {
+  font-size: 25px;
 }
