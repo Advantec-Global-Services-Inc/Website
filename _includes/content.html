@@ -75,24 +75,26 @@
                     <div class="card" tabindex="1">
                         <div class="card-header"><strong>Contact Us</strong></div>
                         <div class="card-body">
+                            <form action="https://formspree.io/mqkyqqae" method="POST">
                             <div class="form-group">
                                 <label for="name">Full name</label>
-                                <input class="form-control" id="name" type="text" placeholder="First and last name">
+                                <input class="form-control" name="name" type="text" placeholder="First and last name">
                             </div>
                             <div class="form-group">
                                 <label for="company">Company</label>
-                                <input class="form-control" id="company" type="text" placeholder="Acme, Inc">
+                                <input class="form-control" name="company" type="text" placeholder="Acme, Inc">
                             </div>
                             <div class="form-group">
                                 <label for="email">E-mail address</label>
-                                <input class="form-control" id="email" type="text" placeholder="you@example.com">
+                                <input class="form-control" name="email" type="text" placeholder="you@example.com">
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" id="message" type="text"
+                                <textarea class="form-control" name="message" type="text"
                                     placeholder="Message"></textarea>
                             </div>
                             <button class="mt-3 btn btn-primary btn-block" type="submit">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
