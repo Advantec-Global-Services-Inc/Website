@@ -39,3 +39,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - mdl-style.rb
+  - CNAME
