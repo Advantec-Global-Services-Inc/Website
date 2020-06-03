@@ -61,3 +61,30 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Img Staging
+assets/img/bloated/aws.svg
+assets/img/bloated/citrix.svg
+assets/img/bloated/cloud.svg
+assets/img/bloated/cube.svg
+assets/img/bloated/google.svg
+assets/img/bloated/headerLogo.svg
+assets/img/bloated/logo2.svg
+assets/img/bloated/mastLogo.png
+assets/img/bloated/microsoft.svg
+assets/img/bloated/networking.svg
+assets/img/bloated/training.svg
+assets/img/bloated/vmware.svg
+assets/img/minified/aws.svg
+assets/img/minified/citrix.svg
+assets/img/minified/cube.svg
+assets/img/minified/google.svg
+assets/img/minified/headerLogo.svg
+assets/img/minified/linkedin.svg
+assets/img/minified/logo.svg
+assets/img/minified/microsoft.svg
+assets/img/minified/networking.svg
+assets/img/minified/solution.svg
+assets/img/minified/training.svg
+assets/img/minified/twitter.svg
+assets/img/minified/vmware.svg
