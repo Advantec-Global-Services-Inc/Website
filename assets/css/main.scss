@@ -1,5 +1,6 @@
 --- 
 --- 
+
 @import 'override';
 
 /*! Import Bootstrap 4 variables */
@@ -41,10 +42,12 @@
     color: $white;
     text-decoration: none;
   }
+
   a:hover {
     color: $primary;
   }
 }
+
 /* Partners Bar */
 .adv-subnavbar {
   background-color: $light;
@@ -73,4 +76,10 @@
 
 .post-style-h2 {
   color: #72DEFF;
+}
+
+/* UL Checkmark */
+.checkmark:before {
+  content: "\2713";
+  color: #1EB980;
 }

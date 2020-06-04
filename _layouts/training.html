@@ -10,124 +10,159 @@ layout: compress
 <body>
     {% include navbar.html %}
     <div class="container mt-5">
-        <section>
-            <h2 class="font-weight-bold text-center pb-2">{{ page.title }}</h3>
+        <div class="row">
+            <div class="col">
+                <h2 class="font-weight-bold text-center pb-2">{{ page.title }}</h2>
                 <hr class="adv-hr my-4">
                 <p class="lead text-center pt-2 mb-5">{{ page.tagline }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3 class="font-weight-bold text-center pb-2">What you get</h3>
+                <hr class="adv-hr my-4">
+                <ul class="list-unstyled">
+                    <li class="lead checkmark"> Customized Lectures</li>
+                    <li class="lead checkmark"> Hands-On Labs</li>
+                    <li class="lead checkmark"> Certification Exam</li>
+                    <li class="lead checkmark"> Downloadable Course Content</li>
+                </ul>
+                <h3 class="font-weight-bold text-center pb-2">How you get it</h3>
+                <hr class="adv-hr my-4">
+                <ul class="list-unstyled">
+                    <li class="lead"><strong>1.</strong> Contact Us</li>
+                    <li class="lead"><strong>2.</strong> Scope Custom Content</li>
+                    <li class="lead"><strong>3.</strong> Set Delivery Date</li>
+                    <li class="lead"><strong>4.</strong> Learn</li>
+                    </ul>
+                    <center><a class="btn btn-lg btn-primary my-3" href="/contact">Enroll Today</a></center>
+            </div>
+            <div class="col-sm-9">
+                <section>
+                    <div class="table-responsive-md">
+                        <table class="table table-striped table-hover table-bordered">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Course</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Certification</th>
+                                    <th scope="col">Duration</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center bg-light" colspan="4">
+                                        <p class="lead text-dark mb-0">Workspace</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CWS-215</th>
+                                    <td>Citrix Virtual Apps and Desktops 7 Administration On-Premises and in Citrix
+                                        Cloud</td>
+                                    <td>CCA-V</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CMB-318</th>
+                                    <td>Citrix Virtual Apps and Desktops 7, App Layering, and WEM Administration
+                                        (Fast-Track)</td>
+                                    <td>CCA-V</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CWS-315</th>
+                                    <td>Citrix Virtual Apps and Desktops 7 Advanced Administration</td>
+                                    <td>CCP-V</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CWS-415</th>
+                                    <td>Citrix Virtual Apps and Desktops 7 Assessment, Design and Advanced Configuration
+                                    </td>
+                                    <td>CCE-V</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CXD-250</th>
+                                    <td>Moving to the Citrix Virtual Apps and Desktops Service on Citrix Cloud</td>
+                                    <td>CC-VAD-CC</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CXD-252</th>
+                                    <td>Moving to the Citrix Virtual Apps and Desktops Service on Citrix Cloud with
+                                        Microsoft Azure</td>
+                                    <td>CC-VAD-CC</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CXD-251</th>
+                                    <td>Citrix Virtual Apps and Desktops Service on Microsoft Azure</td>
+                                    <td>CC-VAD-MA</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CSF-201</th>
+                                    <td>Citrix Content Collaboration Enterprise Essentials</td>
+                                    <td>CC-SHAREFILE</td>
+                                    <td>2 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CEM-205</th>
+                                    <td>Manage Citrix Endpoint Management</td>
+                                    <td>CC-CEM</td>
+                                    <td>3 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CXS-301</th>
+                                    <td>Citrix XenServer 7.1 LTSR Administration</td>
+                                    <td>CC-XENSERVER</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CWS-206</th>
+                                    <td>Citrix Workspace Microapps Essentials</td>
+                                    <td>CC-WMS</td>
+                                    <td>3 Days</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center bg-light" colspan="4">
+                                        <p class="lead text-dark mb-0">Networking</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CNS-220</th>
+                                    <td>Citrix ADC 12.x Essentials and Traffic Management</td>
+                                    <td>CCA-N</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CNS-320</th>
+                                    <td>Citrix ADC 12.x Advanced Concepts - Security, Management and Optimization</td>
+                                    <td>CCP-N</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CNS-420</th>
+                                    <td>Citrix Networking Assessment, Design, and Advanced Configurations</td>
+                                    <td>CCE-N</td>
+                                    <td>5 Days</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">CNS-230</th>
+                                    <td>Deploy & Manage Citrix SD-WAN - Essentials</td>
+                                    <td>CC-SD-WAN</td>
+                                    <td>3 Days</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
 
-                <div class="table-responsive-md">
-                    <table class="table table-striped table-hover table-bordered">
-                        <thead class="thead-dark">
-                            <tr >
-                                <th scope="col">Course</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Certification</th>
-                                <th scope="col">Duration</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="text-center bg-light" colspan="4"><p class="lead text-dark mb-0">Workspace</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CWS-215</th>
-                                <td>Citrix Virtual Apps and Desktops 7 Administration On-Premises and in Citrix Cloud</td>
-                                <td>CCA-V</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CMB-318</th>
-                                <td>Citrix Virtual Apps and Desktops 7, App Layering, and WEM Administration (Fast-Track)</td>
-                                <td>CCA-V</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CWS-315</th>
-                                <td>Citrix Virtual Apps and Desktops 7 Advanced Administration</td>
-                                <td>CCP-V</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CWS-415</th>
-                                <td>Citrix Virtual Apps and Desktops 7 Assessment, Design and Advanced Configuration</td>
-                                <td>CCE-V</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CXD-250</th>
-                                <td>Moving to the Citrix Virtual Apps and Desktops Service on Citrix Cloud</td>
-                                <td>CC-VAD-CC</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CXD-252</th>
-                                <td>Moving to the Citrix Virtual Apps and Desktops Service on Citrix Cloud with Microsoft Azure</td>
-                                <td>CC-VAD-CC</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CXD-251</th>
-                                <td>Citrix Virtual Apps and Desktops Service on Microsoft Azure</td>
-                                <td>CC-VAD-MA</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CSF-201</th>
-                                <td>Citrix Content Collaboration Enterprise Essentials</td>
-                                <td>CC-SHAREFILE</td>
-                                <td>2 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CEM-205</th>
-                                <td>Manage Citrix Endpoint Management</td>
-                                <td>CC-CEM</td>
-                                <td>3 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CXS-301</th>
-                                <td>Citrix XenServer 7.1 LTSR Administration</td>
-                                <td>CC-XENSERVER</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CWS-206</th>
-                                <td>Citrix Workspace Microapps Essentials</td>
-                                <td>CC-WMS</td>
-                                <td>3 Days</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center bg-light" colspan="4"><p class="lead text-dark mb-0">Networking</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CNS-220</th>
-                                <td>Citrix ADC 12.x Essentials and Traffic Management</td>
-                                <td>CCA-N</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CNS-320</th>
-                                <td>Citrix ADC 12.x Advanced Concepts - Security, Management and Optimization</td>
-                                <td>CCP-N</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CNS-420</th>
-                                <td>Citrix Networking Assessment, Design, and Advanced Configurations</td>
-                                <td>CCE-N</td>
-                                <td>5 Days</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CNS-230</th>
-                                <td>Deploy & Manage Citrix SD-WAN - Essentials</td>
-                                <td>CC-SD-WAN</td>
-                                <td>3 Days</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-        </section>
     </div>
-    
+
     {% include footer.html %}
 </body>
 
