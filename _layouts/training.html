@@ -34,8 +34,8 @@ layout: compress
                     <li class="lead"><strong>2.</strong> Scope Custom Content</li>
                     <li class="lead"><strong>3.</strong> Set Delivery Date</li>
                     <li class="lead"><strong>4.</strong> Learn</li>
-                    </ul>
-                    <center><a class="btn btn-lg btn-primary my-4" href="/contact">Enroll Today</a></center>
+                </ul>
+                <center><a class="btn btn-lg btn-primary my-4" href="/contact">Enroll Today</a></center>
                 <div class="row my-5 justify-content-center">
                     <img height="100" src="/assets/img/calcBadge.svg">
                     <img class="mt-3" height="100" src="/assets/img/psaBadge.svg">
@@ -140,6 +140,12 @@ layout: compress
                                     <td>CCA-N</td>
                                     <td>5 Days</td>
                                 </tr>
+                                <tr data-href="/assets/pdf/CNS-222.pdf">
+                                    <th scope="row">CNS-222</th>
+                                    <td>Citrix ADC 12.x Essentials and Citrix Gateway</td>
+                                    <td>CCA-N</td>
+                                    <td>5 Days</td>
+                                </tr>
                                 <tr>
                                     <th scope="row">CNS-320</th>
                                     <td>Citrix ADC 12.x Advanced Concepts - Security, Management and Optimization</td>
@@ -166,8 +172,14 @@ layout: compress
         </div>
 
     </div>
-
+    
     {% include footer.html %}
 </body>
-
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('*[data-href]').on('click', function () {
+            window.location = $(this).data("href");
+        });
+    });
+</script>
 </html>
