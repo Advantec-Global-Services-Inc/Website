@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About Advantec
+title: About
 tagline: We're awesome and you know it.
 permalink: /about/
 ---
