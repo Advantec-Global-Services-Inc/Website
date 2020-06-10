@@ -10,7 +10,7 @@ layout: compress
         <section>
             <h2 class="font-weight-bold text-left pb-2">{{ page.title }}</h2>
             <p class="text-left mb-0">Author: {{ page.author }}</p>
-            <p class="text-left">Last Modified: timeStamp</p>
+            <p class="text-left">Last Modified: {{ page.date | date: '%B %d, %Y' }}</p>
             <hr class="adv-hr my-4">
             {{ content }}
         </section>
