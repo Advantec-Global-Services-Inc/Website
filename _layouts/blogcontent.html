@@ -1,24 +1,20 @@
 ---
 layout: compress
 ---
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
-
 {% include head.html %}
-
 <body>
     {% include navbar.html %}
     <div class="container mt-5">
         <section>
-            <h2 class="font-weight-bold text-center pb-2">{{ page.title }}</h2>
-                <hr class="adv-hr my-4">
-                <p class="lead text-center pt-2 mb-5">{{ page.tagline }}</p>
-                {{ content }}
+            <h2 class="font-weight-bold text-left pb-2">{{ page.title }}</h2>
+            <p class="text-left mb-0">Author: {{ page.author }}</p>
+            <p class="text-left">Last Modified: timeStamp</p>
+            <hr class="adv-hr my-4">
+            {{ content }}
         </section>
     </div>
-
     {% include footer.html %}
 </body>
-
 </html>
