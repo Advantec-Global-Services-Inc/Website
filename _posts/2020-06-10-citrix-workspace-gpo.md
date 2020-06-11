@@ -4,7 +4,7 @@ title:  "Citrix Workspace GPOs"
 author: Jacob Wilson
 comments: true
 categories: Workspace
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:categories/:year/:month/:day/:title/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tempor magna. In nisi massa, tempus at mauris ac, sagittis sagittis eros. Nullam et nulla turpis. Nunc auctor tincidunt vulputate. Pellentesque id lorem pellentesque, efficitur turpis ut, hendrerit libero. In hendrerit, urna a hendrerit varius, enim eros vehicula nunc, rhoncus varius justo leo eu ligula. Aenean sed commodo turpis, at ornare magna. Proin ac massa in ante sollicitudin congue. Nam posuere faucibus ante id tristique. Pellentesque congue enim tellus, sit amet finibus sapien congue ut. In ex eros, venenatis bibendum vulputate nec, faucibus non quam. Mauris egestas erat elit, vitae malesuada lectus vestibulum a. Nam pharetra nulla nec mi convallis hendrerit. Nulla sed gravida ipsum.
