@@ -8,14 +8,28 @@ layout: compress
 <body>
     {% include navbar.html %}
     <div class="container mt-5">
-        <section>
-            <h2 class="font-weight-bold text-left pb-2">{{ page.title }}</h2>
-            <p class="text-left mb-0">Author: {{ page.author }}</p>
-            <p class="text-left">Last Modified: {{ page.date | date: '%B %d, %Y' }}</p>
-            <hr class="adv-hr my-4">
-            {{ content }}
-            {% include comments.html %}
-        </section>
+        <div class="row">
+            <div class="col-sm-3">
+                {% for category in site.categories %}
+                <h4>{{ category[0] }}</h4>
+                <ul>
+                    {% for post in category[1] %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endfor %}
+            </div>
+            <div class="col-sm-9">
+                <h2 class="font-weight-bold text-left pb-2">{{ page.title }}</h2>
+                <p class="text-left mb-0">Author: {{ page.author }}</p>
+                <p class="text-left">Last Modified: {{ page.date | date: '%B %d, %Y' }}</p>
+                <hr class="adv-hr my-4">
+                <section>
+                    {{ content }}
+                    {% include comments.html %}
+                </section>
+            </div>
+        </div>
     </div>
     {% include footer.html %}
 </body>
