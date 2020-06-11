@@ -18,6 +18,10 @@ social:
     - https://twitter.com/advantecus
     - https://www.linkedin.com/company/advantec-global-services-inc
 
+# Disqus Comments
+disqus:
+  shortname: advantec
+
 # Local Server
 host: localhost
 
