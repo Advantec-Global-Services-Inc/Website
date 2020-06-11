@@ -9,20 +9,19 @@ layout: compress
     {% include navbar.html %}
     <div class="container">
         <div class="row">
-            <div class="col-sm-3 bg-blogSide pt-5">
+            <div class="col-sm-3 bg-blogSide adv-unstyled-links text-blog pt-5">
                 {% for category in site.categories %}
-                <h5>{{ category[0] }}</h5>
+                <h5 class="font-weight-light">{{ category[0] }}</h5>
                 <ul class="list-unstyled">
                     {% for post in category[1] %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    <li class="pl-3"><a href="{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endfor %}
             </div>
             <div class="col-sm-9 pt-5 bg-blogDark text-blog">
-                <h2 class="font-weight-bold text-left pb-2">{{ page.title }}</h2>
-                <p class="text-left mb-0">Author: {{ page.author }}</p>
-                <p class="text-left">Last Modified: {{ page.date | date: '%B %d, %Y' }}</p>
+                <h3 class="text-left">{{ page.title }}</h3>
+                <p class="text-left mb-0 adv-unstyled-links">{{ page.date | date: '%B %d, %Y' }} | <a href="https://www.twitter.com/agsi_jwilson">Jacob Wilson</a></p>
                 <hr align="left" class="adv-hr my-4">
                 <section class="mb-5">
                     {{ content }}

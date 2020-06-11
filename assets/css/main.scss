@@ -87,3 +87,14 @@
 [data-href] {
   cursor: pointer;
 }
+
+.adv-unstyled-links {
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $primary;
+  }
+}
