@@ -19,15 +19,15 @@ layout: compress
                 </ul>
                 {% endfor %}
             </div>
-            <div class="col-sm-9 pt-5 bg-blogDark">
+            <div class="col-sm-9 pt-5 bg-blogDark text-blog">
                 <h2 class="font-weight-bold text-left pb-2">{{ page.title }}</h2>
                 <p class="text-left mb-0">Author: {{ page.author }}</p>
                 <p class="text-left">Last Modified: {{ page.date | date: '%B %d, %Y' }}</p>
                 <hr align="left" class="adv-hr my-4">
-                <section class="text-blog">
+                <section class="mb-5">
                     {{ content }}
-                    {% include comments.html %}
                 </section>
+                {% include comments.html %}
             </div>
         </div>
     </div>
