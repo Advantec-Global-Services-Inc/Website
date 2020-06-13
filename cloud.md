@@ -3,7 +3,7 @@ layout: content
 title: Cloud Services
 tagline: Whether you’re ready to go all in on the cloud or take advantage of a hybrid model, we will design a solution that works for you. We’ll also help you deploy, maintain, and optimize your Citrix Cloud services.
 permalink: /cloud/
-image: /assets/img/logo.svg
+image: /assets/img/twitterCard.png
 ---
 
 ## Managed Workload Service
