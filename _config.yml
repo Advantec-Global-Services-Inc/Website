@@ -22,8 +22,6 @@ social:
 disqus:
   shortname: advantec
 
-markdown: kramdown
-
 # Local Server
 host: localhost
 

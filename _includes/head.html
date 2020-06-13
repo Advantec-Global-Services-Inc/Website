@@ -11,6 +11,9 @@
     <meta name="author" content="Jacob Wilson">
     <link href="https://gmpg.org/xfn/11" rel="profile">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% if page.code == true %}
+    <link rel="stylesheet" href="{{ '/assets/css/prism.css' | relative_url }}">
+    {% endif %}
     {% feed_meta %}
     {% seo %}
     <!-- Global site tag (gtag.js) - Google Analytics -->

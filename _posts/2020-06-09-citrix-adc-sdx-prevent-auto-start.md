@@ -3,6 +3,7 @@ layout: blogcontent
 title:  "Prevent auto-start of VPX VMs"
 author: Jacob Wilson
 comments: true
+code: true
 categories: ADC
 permalink: /blog/:categories/:year/:month/:day/:title/
 ---
@@ -13,23 +14,23 @@ During a SDX migration project it was useful to prevent VPX instances from auto-
 
 ### Process
 
-1. SSH to the underlying XenServer host on your SDX appliance
+SSH to the underlying XenServer host on your SDX appliance
 
-2. Discover the VM UUIDs by executing the following command
+Discover the VM UUIDs by executing the following command
 
 ~~~ bash
 xe vm-list
 ~~~
 
-3. Copy the uuid string from the VM you want to prevent from auto-starting
+Copy the uuid string from the VM you want to prevent from auto-starting
 
-4. Execute the following command to set auto_start to disabled for that VM
+Execute the following command to set auto_poweron to false for that VM
 
 ~~~ bash
 xe vm-param-set uuid=UUID other-config:auto_poweron=false
 ~~~
 
-5. Verify the parameter was modified by executing
+Verify the parameter was modified by executing
 
 ~~~ bash
 xe vm-list uuid=UUID params=other-config
