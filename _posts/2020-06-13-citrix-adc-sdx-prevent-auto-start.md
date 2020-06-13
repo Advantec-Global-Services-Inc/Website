@@ -1,7 +1,6 @@
 ---
 layout: blogcontent
 title:  "Prevent auto-start of VPX VMs"
-author: Jacob Wilson
 comments: true
 code: true
 categories: ADC
