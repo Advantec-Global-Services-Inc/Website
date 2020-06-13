@@ -11,16 +11,16 @@ layout: compress
   {% include navbar.html %}
   <div class="container mt-5">
     <section>
-      <h2 class="font-weight-bold text-center pb-2">{{ page.title }}</h3>
-        <hr class="adv-hr my-4">
-        <p class="lead text-center pt-2 mb-5">{{ page.tagline }}</p>
-        <ul>
+      <h2 class="font-weight-bold pb-2">{{ page.title }}</h3>
+        <hr align="left" class="adv-hr my-4">
+        <p class="lead pt-2 mb-1">{{ page.tagline }}</p>
+        <ul class="ml-0 pl-0">
           {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">
-              {{ post.title }}
-            </a>
-            - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+          <li class="list-unstyled">
+            <h4> <a href="{{ post.url }}">
+                {{ post.title }}
+              </a></h4><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+            {{ post.excerpt }}
           </li>
           {% endfor %}
         </ul>
