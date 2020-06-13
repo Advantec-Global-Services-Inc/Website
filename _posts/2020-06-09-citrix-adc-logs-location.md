@@ -1,6 +1,6 @@
 ---
 layout: blogcontent
-title:  "Citrix ADC Log Locations"
+title:  "Log Locations"
 author: Jacob Wilson
 comments: true
 categories: ADC
