@@ -8,7 +8,7 @@ timezone: "America/New_York"
 permalink: pretty
 author: agsi_jwilson
 email: info@agsi.us
-logo: /assets/img/logo.svg
+logo: /assets/img/twitterCard.png
 twitter:
   username: AdvantecUS
   card: summary
