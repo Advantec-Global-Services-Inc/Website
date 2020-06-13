@@ -1,15 +1,20 @@
 - title: Home
-  uri: /
+  href: /
 
 - title: About
-  uri: /about
+  href: /about
   
 - title: Training
-  uri: /training
+  href: /training
 
 - title: Services
-  uri: /services
+  sub:
+    - subtitle: Virtualization
+      subhref: /virtualization
+    - subtitle: Networking
+      subhref: /networking
+    - subtitle: Cloud
+      subhref: /cloud
 
 - title: Contact
-  uri: /contact
-
+  href: /contact
