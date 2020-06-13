@@ -8,8 +8,6 @@ categories: ADC
 permalink: /blog/:categories/:year/:month/:day/:title/
 ---
 
-### History
-
 By default all VPX instances hosted on the SDX platform are configured to auto start. During a SDX migration project it was useful to prevent this behavior in the event that the SDX platform rebooted. The primary reason for this was because I used the same IP addresses on the new instances that the old instances had and did not want to cause an IP conflict by ARPing over the new instance if the SDX platform rebooted.
 
 ### Process
