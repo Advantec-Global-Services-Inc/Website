@@ -2,7 +2,4 @@
 ---
 
 User-agent: *
-Disallow: /adc/
-Disallow: /workspace/
-Disallow: /blog/
 Sitemap: {{ site.url }}/sitemap.xml
