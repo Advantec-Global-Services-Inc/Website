@@ -29,7 +29,6 @@ host: localhost
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jekyll-seo-tag
 
 #compile style
