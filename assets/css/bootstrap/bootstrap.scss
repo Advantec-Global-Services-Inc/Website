@@ -12,12 +12,12 @@
 @import "reboot";
 @import "type";
 @import "images";
-//@import "code";
+@import "code";
 @import "grid";
 @import "tables";
 @import "forms";
 @import "buttons";
-//@import "transitions";
+@import "transitions";
 @import "dropdown";
 @import "button-group";
 @import "input-group";
@@ -26,7 +26,7 @@
 @import "navbar";
 @import "card";
 //@import "breadcrumb";
-//@import "pagination";
+@import "pagination";
 //@import "badge";
 //@import "jumbotron";
 //@import "alert";
