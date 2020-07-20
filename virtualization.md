@@ -1,6 +1,6 @@
 ---
 layout: content
-title: Virtualization Services
+title: Digital Workspace Services
 tagline: Citrix secure digital workspaces allow you to integrate technologies, platforms, devices, and clouds to secure and simplify IT management. You can give employees personalized access to the relevant systems and tools they need, when and how they need them.
 permalink: /virtualization/
 image: /assets/img/logo.svg
