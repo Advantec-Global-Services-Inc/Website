@@ -12,7 +12,7 @@ We’ll help you simplify your IT architecture by transitioning from a distribut
 
 ## Digital Workspace Design
 
-We’ll conduct an assessment to understand your current environment and needs. Then we’ll develop a detailed blueprint based on leading practices for migrating your legacy systems to Citrix Workspace. 
+We’ll conduct an assessment to understand your current environment and needs. Then we’ll develop a detailed blueprint based on leading practices for migrating your legacy systems to Citrix Workspace.
 
 ## Digital Workspace Deployment
 
@@ -20,4 +20,4 @@ Based on your specific needs and our validated designs, we’ll deploy a customi
 
 ## Digital Workspace Security Assessment
 
-Our CISSP-certified consultants will review your virtualization, networking, mobility, and data-sharing environment for security vulnerabilities. Based on leading practices around contextual access, networking, analytics, and application data, we’ll provide recommendations for mitigating risks and preventing future attacks. 
+Our CISSP-certified consultants will review your virtualization, networking, mobility, and data-sharing environment for security vulnerabilities. Based on leading practices around contextual access, networking, analytics, and application data, we’ll provide recommendations for mitigating risks and preventing future attacks.  
