@@ -32,7 +32,8 @@ jobs:
 
       # The preview must live under /redesign, so its build needs that baseurl.
       - name: Set preview baseurl
-        run: sed -i 's|^baseurl:.*|baseurl: "/redesign"|' redesign-src/_config.yml
+        run: |
+          sed -i 's|^baseurl:.*|baseurl: "/redesign"|' redesign-src/_config.yml
 
       - name: Build production site
         uses: actions/jekyll-build-pages@v1
