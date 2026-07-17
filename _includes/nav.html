@@ -1,0 +1,16 @@
+<header class="site-header">
+    <div class="container">
+        <a href="{{ '/' | relative_url }}" aria-label="Advantec home" style="display: inline-flex; text-decoration: none">
+            {% include logo.html size=24 %}
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="{{ '/end-user-computing/' | relative_url }}">End user computing</a>
+            <a href="{{ '/networking/' | relative_url }}">Networking</a>
+            <a href="{{ '/cloud/' | relative_url }}">Cloud</a>
+            <a href="{{ '/automation/' | relative_url }}">Automation</a>
+            <a href="{{ '/migrations/' | relative_url }}">Migrations</a>
+            <a href="{{ '/about/' | relative_url }}">About</a>
+            <a class="btn btn-sm" href="{{ '/contact/' | relative_url }}">Start a conversation</a>
+        </nav>
+    </div>
+</header>

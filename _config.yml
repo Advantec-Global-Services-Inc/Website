@@ -1,14 +1,12 @@
 #setup
 title: Advantec Global Services, Inc
 description: "Advantec has provided technology solutions to organizations worldwide since 1994. Our experienced and globally recognized team works with our clients to assist with choosing the right technology for their specific business needs and challenges."
-tagline: "Advantec has been providing turn-key virtualization and networking solutions for decades."
+tagline: "Enterprise IT, delivered without drama."
 url: "https://www.advantec.us"
 baseurl: ""
 timezone: "America/New_York"
 permalink: pretty
-author: agsi_jwilson
 email: info@agsi.us
-logo: /assets/img/twitterCard.png
 twitter:
   username: AdvantecUS
   card: summary
@@ -18,23 +16,14 @@ social:
     - https://twitter.com/advantecus
     - https://www.linkedin.com/company/advantec-global-services-inc
 
-# Disqus Comments
-disqus:
-  shortname: advantec
-
 # Local Server
 host: localhost
 
 # Build settings
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-#compile style
-sass:
-  sass_dir: assets/css
-  style: compressed
+  - jekyll-redirect-from
 
 exclude:
   - .sass-cache

@@ -1,9 +1,156 @@
 ---
 layout: default
-title: Advantec Global Services, Inc
-description: We have provided technology solutions to organizations worldwide since 1994.
-image: /assets/img/twitterCard.png
+description: "Since 1994, Advantec has planned, built, and run digital workspaces, networks, and cloud platforms for organizations that can't afford surprises."
 ---
-{% include masthead.html %}
-{% include partners.html %}
-{% include frontpage.html %}
+<style>
+    @media (max-width: 1020px) {
+        [data-rsp="hero"] { grid-template-columns: 1fr !important; }
+        [data-rsp="hero-art"] { display: none !important; }
+        [data-rsp="cards"] { grid-template-columns: repeat(2, 1fr) !important; }
+        [data-rsp="steps"] { grid-template-columns: 1fr !important; gap: 24px !important; }
+        [data-rsp="stat"] { grid-template-columns: 1fr !important; gap: 20px !important; }
+        [data-rsp="cta"] { flex-direction: column !important; align-items: flex-start !important; }
+        [data-rsp="training"] { grid-template-columns: auto 1fr !important; }
+        [data-rsp="training"] > :last-child { grid-column: 2 !important; justify-self: start !important; }
+    }
+    @media (max-width: 640px) {
+        [data-rsp="cards"] { grid-template-columns: 1fr !important; }
+        h1 { font-size: var(--text-3xl) !important; }
+    }
+</style>
+
+<section style="background: var(--surface-dark); color: var(--text-on-dark)">
+    <div data-rsp="hero" style="max-width: var(--container-max); margin: 0 auto; padding: 88px var(--container-pad) 96px; display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; align-items: center">
+        <div>
+            <div class="eyebrow eyebrow-on-dark">IT consulting &middot; Cloud &middot; End user computing</div>
+            <h1 style="font-size: var(--text-4xl); font-weight: 700; margin: 16px 0 0; line-height: var(--leading-tight); text-wrap: balance; color: var(--text-on-dark)">Enterprise&nbsp;IT, delivered without drama.</h1>
+            <p style="font-size: var(--text-md); color: var(--text-on-dark-muted); line-height: var(--leading-relaxed); margin: 20px 0 0; max-width: 480px">Since 1994, Advantec has planned, built, and run digital workspaces, networks, and cloud platforms for organizations that can&rsquo;t afford surprises.</p>
+            <div style="display: flex; gap: 12px; margin-top: 32px">
+                <a class="btn btn-lg" href="{{ '/contact/' | relative_url }}">Start a conversation</a>
+                <a class="btn btn-lg btn-secondary btn-on-dark" href="{{ '/end-user-computing/' | relative_url }}">Explore services</a>
+            </div>
+        </div>
+        <div data-rsp="hero-art" style="height: 340px; border: 1px solid var(--border-on-dark); border-radius: var(--radius-lg); overflow: hidden; background: var(--surface-dark-raised)">
+            <svg viewBox="0 0 480 360" style="width: 100%; height: 100%; display: block" aria-hidden="true">
+                <line x1="60" y1="0" x2="60" y2="360" stroke="rgba(255,255,255,0.06)"></line><line x1="120" y1="0" x2="120" y2="360" stroke="rgba(255,255,255,0.06)"></line><line x1="180" y1="0" x2="180" y2="360" stroke="rgba(255,255,255,0.06)"></line><line x1="240" y1="0" x2="240" y2="360" stroke="rgba(255,255,255,0.06)"></line><line x1="300" y1="0" x2="300" y2="360" stroke="rgba(255,255,255,0.06)"></line><line x1="360" y1="0" x2="360" y2="360" stroke="rgba(255,255,255,0.06)"></line><line x1="420" y1="0" x2="420" y2="360" stroke="rgba(255,255,255,0.06)"></line>
+                <line x1="0" y1="60" x2="480" y2="60" stroke="rgba(255,255,255,0.06)"></line><line x1="0" y1="120" x2="480" y2="120" stroke="rgba(255,255,255,0.06)"></line><line x1="0" y1="180" x2="480" y2="180" stroke="rgba(255,255,255,0.06)"></line><line x1="0" y1="240" x2="480" y2="240" stroke="rgba(255,255,255,0.06)"></line><line x1="0" y1="300" x2="480" y2="300" stroke="rgba(255,255,255,0.06)"></line>
+                <line x1="240" y1="180" x2="120" y2="60" stroke="rgba(30,185,128,0.45)" stroke-width="1.5"></line>
+                <line x1="240" y1="180" x2="360" y2="60" stroke="rgba(30,185,128,0.45)" stroke-width="1.5"></line>
+                <line x1="240" y1="180" x2="60" y2="240" stroke="rgba(30,185,128,0.45)" stroke-width="1.5"></line>
+                <line x1="240" y1="180" x2="420" y2="240" stroke="rgba(30,185,128,0.45)" stroke-width="1.5"></line>
+                <line x1="240" y1="180" x2="180" y2="300" stroke="rgba(30,185,128,0.45)" stroke-width="1.5"></line>
+                <line x1="240" y1="180" x2="300" y2="300" stroke="rgba(30,185,128,0.45)" stroke-width="1.5"></line>
+                <line x1="120" y1="60" x2="360" y2="60" stroke="rgba(255,255,255,0.14)" stroke-dasharray="3 5"></line>
+                <line x1="60" y1="240" x2="180" y2="300" stroke="rgba(255,255,255,0.14)" stroke-dasharray="3 5"></line>
+                <line x1="420" y1="240" x2="300" y2="300" stroke="rgba(255,255,255,0.14)" stroke-dasharray="3 5"></line>
+                <rect x="228" y="168" width="24" height="24" rx="6" fill="#1eb980"></rect>
+                <rect x="234.5" y="174.5" width="11" height="11" rx="3" fill="#0b0f0d"></rect>
+                <circle cx="120" cy="60" r="5" fill="#0b0f0d" stroke="#1eb980" stroke-width="1.5"></circle><circle cx="120" cy="60" r="1.8" fill="#1eb980"></circle>
+                <circle cx="360" cy="60" r="5" fill="#0b0f0d" stroke="#1eb980" stroke-width="1.5"></circle><circle cx="360" cy="60" r="1.8" fill="#1eb980"></circle>
+                <circle cx="60" cy="240" r="5" fill="#0b0f0d" stroke="#1eb980" stroke-width="1.5"></circle><circle cx="60" cy="240" r="1.8" fill="#1eb980"></circle>
+                <circle cx="420" cy="240" r="5" fill="#0b0f0d" stroke="#1eb980" stroke-width="1.5"></circle><circle cx="420" cy="240" r="1.8" fill="#1eb980"></circle>
+                <circle cx="180" cy="300" r="5" fill="#0b0f0d" stroke="#1eb980" stroke-width="1.5"></circle><circle cx="180" cy="300" r="1.8" fill="#1eb980"></circle>
+                <circle cx="300" cy="300" r="5" fill="#0b0f0d" stroke="#1eb980" stroke-width="1.5"></circle><circle cx="300" cy="300" r="1.8" fill="#1eb980"></circle>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<section style="border-bottom: 1px solid var(--border-hairline); background: var(--surface-subtle)">
+    <div style="max-width: var(--container-max); margin: 0 auto; padding: 20px var(--container-pad); display: flex; align-items: center; gap: 16px 36px; flex-wrap: wrap">
+        <span style="font-family: var(--font-mono); font-size: 11px; letter-spacing: var(--tracking-caps); color: var(--text-muted)">CERTIFIED PARTNER</span>
+        <div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: var(--font-display); font-size: 17px; font-weight: 600; color: var(--text-faint)">Microsoft</span><span style="font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--tracking-caps); color: var(--text-muted); text-transform: uppercase">Solutions partner</span></div>
+        <div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: var(--font-display); font-size: 17px; font-weight: 600; color: var(--text-faint)">AWS</span><span style="font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--tracking-caps); color: var(--text-muted); text-transform: uppercase">Consulting partner</span></div>
+        <div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: var(--font-display); font-size: 17px; font-weight: 600; color: var(--text-faint)">Citrix</span><span style="font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--tracking-caps); color: var(--text-muted); text-transform: uppercase">Certified</span></div>
+        <div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: var(--font-display); font-size: 17px; font-weight: 600; color: var(--text-faint)">Google</span><span style="font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--tracking-caps); color: var(--text-muted); text-transform: uppercase">Cloud partner</span></div>
+        <div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: var(--font-display); font-size: 17px; font-weight: 600; color: var(--text-faint)">VMware</span><span style="font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--tracking-caps); color: var(--text-muted); text-transform: uppercase">Partner</span></div>
+        <div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: var(--font-display); font-size: 17px; font-weight: 600; color: var(--text-faint)">Parallels</span><span style="font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--tracking-caps); color: var(--text-muted); text-transform: uppercase">Partner</span></div>
+    </div>
+</section>
+
+<section style="padding: 88px 0">
+    <div class="container">
+        <div class="eyebrow">Services</div>
+        <h2 style="font-size: var(--text-3xl); font-weight: 600; margin: 12px 0 0; max-width: 560px; text-wrap: balance">Everything we do, one accountable partner.</h2>
+        <div data-rsp="cards" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 40px">
+            <a class="svc-card" href="{{ '/end-user-computing/' | relative_url }}">
+                <i data-lucide="monitor" class="card-icon"></i>
+                <h3>End user computing</h3>
+                <p>Citrix and cloud-desktop environments your teams actually like using &mdash; designed, deployed, and managed.</p>
+            </a>
+            <a class="svc-card" href="{{ '/networking/' | relative_url }}">
+                <i data-lucide="network" class="card-icon"></i>
+                <h3>Networking</h3>
+                <p>NetScaler application delivery, end to end &mdash; load balancing, Gateway, WAF, and GSLB.</p>
+            </a>
+            <a class="svc-card" href="{{ '/cloud/' | relative_url }}">
+                <i data-lucide="cloud" class="card-icon"></i>
+                <h3>Cloud</h3>
+                <p>Landing zones, migration, and managed operations across Azure, AWS, and Google Cloud.</p>
+            </a>
+            <a class="svc-card" href="{{ '/migrations/' | relative_url }}">
+                <i data-lucide="arrow-left-right" class="card-icon"></i>
+                <h3>Migrations</h3>
+                <p>Platform-to-platform moves &mdash; Citrix, VMware, F5, and cloud &mdash; sequenced so nothing critical breaks.</p>
+            </a>
+            <a class="svc-card" href="{{ '/automation/' | relative_url }}">
+                <i data-lucide="workflow" class="card-icon"></i>
+                <h3>Automation</h3>
+                <p>Image pipelines, scripting, and infrastructure as code &mdash; the repetitive work your engineers shouldn&rsquo;t do by hand.</p>
+            </a>
+            <a class="svc-card" href="{{ '/contact/' | relative_url }}">
+                <i data-lucide="graduation-cap" class="card-icon"></i>
+                <h3>Team training</h3>
+                <p>Instructor-led, hands-on EUC courses &mdash; Citrix, Azure Virtual Desktop, Parallels RAS &mdash; taught by working engineers.</p>
+            </a>
+        </div>
+        <div data-rsp="training" style="display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; margin-top: 40px; padding: 24px 32px; background: var(--surface-subtle); border: 1px solid var(--border-hairline); border-radius: var(--radius-lg)">
+            <div>
+                <div style="font-family: var(--font-mono); font-size: 11px; letter-spacing: var(--tracking-caps); text-transform: uppercase; color: var(--text-muted)">Who we serve</div>
+                <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 8px 0 0; max-width: 720px">Enterprise and mid-size organizations &mdash; healthcare, financial services, government, and education &mdash; where IT teams run regulated, always-on environments and need a partner who has done it before.</p>
+            </div>
+            <a class="btn btn-secondary" href="{{ '/about/' | relative_url }}">About us</a>
+        </div>
+    </div>
+</section>
+
+<section style="background: var(--surface-dark); padding: 64px 0">
+    <div data-rsp="stat" class="container" style="display: grid; grid-template-columns: auto 1fr; gap: 56px; align-items: center">
+        <div style="font-family: var(--font-mono); font-size: 72px; color: var(--accent); line-height: 1">1994</div>
+        <p style="font-size: var(--text-lg); color: var(--text-on-dark); line-height: var(--leading-relaxed); margin: 0; max-width: 640px; text-wrap: balance">We&rsquo;ve planned, built, and run enterprise IT since 1994 &mdash; through every platform shift from the data center to the cloud. Independent, engineer-led, and accountable end to end.</p>
+    </div>
+</section>
+
+<section style="padding: 88px 0">
+    <div class="container">
+        <div class="eyebrow">How we engage</div>
+        <h2 style="font-size: var(--text-3xl); font-weight: 600; margin: 12px 0 0">Assess. Design. Run.</h2>
+        <div data-rsp="steps" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 40px">
+            <div style="border-top: 2px solid var(--green-500); padding-top: 20px">
+                <div style="font-family: var(--font-mono); font-size: 13px; color: var(--green-600)">01</div>
+                <div style="font-family: var(--font-display); font-size: 19px; font-weight: 600; margin-top: 8px">Assess</div>
+                <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 10px 0 0">We start with what you have &mdash; infrastructure, licenses, constraints, and the problems your team already knows about.</p>
+            </div>
+            <div style="border-top: 2px solid var(--green-500); padding-top: 20px">
+                <div style="font-family: var(--font-mono); font-size: 13px; color: var(--green-600)">02</div>
+                <div style="font-family: var(--font-display); font-size: 19px; font-weight: 600; margin-top: 8px">Design</div>
+                <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 10px 0 0">A plan your engineers can read: architecture, sequencing, and the risks called out in plain language.</p>
+            </div>
+            <div style="border-top: 2px solid var(--green-500); padding-top: 20px">
+                <div style="font-family: var(--font-mono); font-size: 13px; color: var(--green-600)">03</div>
+                <div style="font-family: var(--font-display); font-size: 19px; font-weight: 600; margin-top: 8px">Run</div>
+                <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 10px 0 0">We deploy, hand over the runbook, and stay accountable &mdash; managed by us, or fully in your team&rsquo;s hands.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background: var(--surface-subtle); padding: 72px 0; border-top: 1px solid var(--border-hairline)">
+    <div data-rsp="cta" class="container" style="display: flex; align-items: center; justify-content: space-between; gap: 32px">
+        <div>
+            <h2 style="font-size: var(--text-2xl); font-weight: 600; color: var(--text-strong); margin: 0; text-wrap: balance">Tell us what&rsquo;s slowing your team down.</h2>
+            <p style="color: var(--text-body); margin: 10px 0 0; font-size: 15px">A 30-minute call with an engineer &mdash; not a salesperson.</p>
+        </div>
+        <a class="btn btn-lg" href="{{ '/contact/' | relative_url }}">Start a conversation</a>
+    </div>
+</section>

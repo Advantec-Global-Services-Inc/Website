@@ -1,0 +1,5 @@
+{% assign logo_size = include.size | default: 24 %}
+<span class="logo{% if include.dark %} logo-dark{% endif %}" style="--logo-size: {{ logo_size }}px">
+    <span class="logo-slash" aria-hidden="true"></span>
+    <span class="logo-text">advantec{% if include.lockup %}<span class="logo-lockup">Global Services</span>{% endif %}</span>
+</span>

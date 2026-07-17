@@ -1,18 +1,81 @@
 ---
 layout: default
 title: About
-tagline: Advantec Global Services, Inc has provided technology solutions to organizations worldwide since 1994.
+description: "Advantec Global Services has been planning, building, and running enterprise infrastructure since 1994 — through client-server, virtualization, and every wave of cloud since."
 permalink: /about/
-image: /assets/img/logo.svg
 ---
-    <div class="container mt-5 mb-5">
-      <section>
-        <h1 class="font-weight-bold text-center pb-2">About</h1>
-          <hr class="adv-hr my-4">
-        <p>Advantec Global Services, Inc has provided technology solutions to organizations worldwide since 1994. Our experienced and globally 
-          recognized team works with our clients to assist with choosing the right technology for their specific business needs and challenges. We 
-          bring to the table real-world knowledge and solutions of today’s complex problems. Our client base covers everything 
-          from small law firms to large multinational financial, retail, manufacturing, and healthcare organizations. 
-          </p>
-      </section>
+<style>
+    @media (max-width: 1020px) {
+      [data-rsp="hero"] { grid-template-columns: 1fr !important; }
+      [data-rsp="hero-art"] { display: none !important; }
+      [data-rsp="cards"] { grid-template-columns: repeat(2, 1fr) !important; }
+      [data-rsp="steps"] { grid-template-columns: 1fr !important; gap: 24px !important; }
+      [data-rsp="stats"] { grid-template-columns: 1fr !important; gap: 28px !important; }
+      [data-rsp="path"] { grid-template-columns: 1fr !important; gap: 12px !important; }
+      [data-rsp="cta"] { flex-direction: column !important; align-items: flex-start !important; }
+    }
+    @media (max-width: 640px) {
+      [data-rsp="cards"] { grid-template-columns: 1fr !important; }
+      h1 { font-size: var(--text-3xl) !important; }
+    }
+</style>
+
+<section style="border-bottom: 1px solid var(--border-hairline)">
+    <div style="max-width: var(--container-max); margin: 0 auto; padding: 80px var(--container-pad) 64px">
+        <div class="eyebrow">About</div>
+        <h1 style="font-size: var(--text-4xl); font-weight: 700; margin: 16px 0 0; line-height: var(--leading-tight); text-wrap: balance; color: var(--text-strong); max-width: 780px">Thirty years of enterprise IT. Still engineer-led.</h1>
+        <p style="font-size: var(--text-md); color: var(--text-body); line-height: var(--leading-relaxed); margin: 20px 0 0; max-width: 620px">Advantec Global Services has been planning, building, and running enterprise infrastructure since 1994 &mdash; through client-server, virtualization, and every wave of cloud since. The technology keeps changing. Our job doesn&rsquo;t: make it work, keep it working, and tell you the truth about it.</p>
     </div>
+</section>
+
+<section style="background: var(--surface-dark); padding: 64px 0">
+    <div data-rsp="stats" class="container" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px">
+        <div>
+            <div style="font-family: var(--font-mono); font-size: 40px; color: var(--accent); line-height: 1">1994</div>
+            <p style="color: var(--text-on-dark-muted); font-size: 14px; margin: 10px 0 0">Founded &mdash; and continuously operating since.</p>
+        </div>
+        <div>
+            <div style="font-family: var(--font-mono); font-size: 40px; color: var(--accent); line-height: 1">6</div>
+            <p style="color: var(--text-on-dark-muted); font-size: 14px; margin: 10px 0 0">Practices: workspace, networking, cloud, migrations, automation, and training.</p>
+        </div>
+        <div>
+            <div style="font-family: var(--font-mono); font-size: 40px; color: var(--accent); line-height: 1">1</div>
+            <p style="color: var(--text-on-dark-muted); font-size: 14px; margin: 10px 0 0">Accountable partner from design through operations.</p>
+        </div>
+    </div>
+</section>
+
+<section style="padding: 88px 0">
+    <div class="container">
+        <div class="eyebrow">How we work</div>
+        <h2 style="font-size: var(--text-3xl); font-weight: 600; margin: 12px 0 0; max-width: 560px; text-wrap: balance">What you can hold us to.</h2>
+        <div data-rsp="steps" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px 48px; margin-top: 40px">
+            <div style="border-top: 2px solid var(--green-500); padding-top: 20px">
+                <div style="font-family: var(--font-display); font-size: 19px; font-weight: 600">Engineers answer the phone</div>
+                <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 10px 0 0">The person scoping your project is the person who can build it. No handoff to a delivery team you&rsquo;ve never met.</p>
+            </div>
+            <div style="border-top: 2px solid var(--green-500); padding-top: 20px">
+                <div style="font-family: var(--font-display); font-size: 19px; font-weight: 600">Independent advice</div>
+                <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 10px 0 0">We partner with Microsoft, AWS, Citrix, Google, VMware, and Parallels &mdash; and recommend what fits your problem, not our quota.</p>
+            </div>
+            <div style="border-top: 2px solid var(--green-500); padding-top: 20px">
+                <div style="font-family: var(--font-display); font-size: 19px; font-weight: 600">Plans you can read</div>
+                <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 10px 0 0">Architecture, sequencing, and risk in plain language. If a document needs a meeting to explain it, we rewrite the document.</p>
+            </div>
+            <div style="border-top: 2px solid var(--green-500); padding-top: 20px">
+                <div style="font-family: var(--font-display); font-size: 19px; font-weight: 600">Accountable end to end</div>
+                <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 10px 0 0">We stay through deployment and handover &mdash; and keep running it if you want us to. Either way, you get the runbook.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background: var(--surface-subtle); padding: 72px 0; border-top: 1px solid var(--border-hairline)">
+    <div data-rsp="cta" class="container" style="display: flex; align-items: center; justify-content: space-between; gap: 32px">
+        <div>
+            <h2 style="font-size: var(--text-2xl); font-weight: 600; color: var(--text-strong); margin: 0; text-wrap: balance">Work with people who&rsquo;ve seen it before.</h2>
+            <p style="color: var(--text-body); margin: 10px 0 0; font-size: 15px">A 30-minute call with an engineer &mdash; not a salesperson.</p>
+        </div>
+        <a class="btn btn-lg" href="{{ '/contact/' | relative_url }}">Start a conversation</a>
+    </div>
+</section>

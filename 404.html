@@ -1,25 +1,16 @@
 ---
-permalink: /404.html
 layout: default
+title: Page not found
+permalink: /404.html
+sitemap: false
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<section style="padding: 120px 0">
+    <div class="container" style="max-width: 560px; text-align: center">
+        <div style="font-family: var(--font-mono); font-size: 72px; color: var(--accent); line-height: 1">404</div>
+        <h1 style="font-size: var(--text-2xl); font-weight: 600; margin: 20px 0 0">Page not found.</h1>
+        <p style="font-size: 15px; color: var(--text-body); line-height: var(--leading-relaxed); margin: 14px 0 0">The page you&rsquo;re looking for doesn&rsquo;t exist or has moved.</p>
+        <div style="margin-top: 28px">
+            <a class="btn" href="{{ '/' | relative_url }}">Back to home</a>
+        </div>
+    </div>
+</section>
