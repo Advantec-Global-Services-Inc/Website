@@ -2,4 +2,5 @@
 ---
 
 User-agent: *
+Disallow: /redesign/
 Sitemap: {{ site.url }}/sitemap.xml
