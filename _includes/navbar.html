@@ -5,7 +5,7 @@
         {% endif %}
         <div class="container">
             <div class="d-table-cell">
-                <a class="navbar-brand" href="/"><img class="d-block" height="20" src="/assets/img/headerLogo.svg"
+                <a class="navbar-brand" href="{{ '/' | relative_url }}"><img class="d-block" height="20" src="{{ '/assets/img/headerLogo.svg' | relative_url }}"
                         alt="Advantec Logo"></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -24,13 +24,13 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             {% for subcategory in nav.sub %}
                             <a class="dropdown-item"
-                                href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a>
+                                href="{{ subcategory.subhref | relative_url }}">{{ subcategory.subtitle }}</a>
                             {% endfor %}
                         </div>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+                        <a class="nav-link" href="{{ nav.href | relative_url }}">{{ nav.title }}</a>
                     </li>
                     {% endif %}
                     {% endfor %}

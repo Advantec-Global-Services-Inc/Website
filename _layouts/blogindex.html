@@ -19,7 +19,7 @@ layout: compress
                 <ul class="list-unstyled">
                     {% for post in category[1] %}
                     <li class="list-unstyled pl-3">
-                      <h4> <a href="{{ post.url }}">
+                      <h4> <a href="{{ post.url | relative_url }}">
                           {{ post.title }}
                         </a></h4><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
                     </li>
