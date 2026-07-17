@@ -1,9 +1,11 @@
 {%- comment -%}
 Inline Lucide icons (1.5px stroke, per design system). Replaces the runtime
 lucide CDN library. Params: name (required), class (optional CSS class),
-size (optional px, default 24).
+px (optional size in px, default 24).
+NOTE: the size param is called `px`, not `size` — `include.size` collides with
+Liquid's built-in .size (hash length) and silently returns the param count.
 {%- endcomment -%}
-{%- assign s = include.size | default: 24 -%}
+{%- assign s = include.px | default: 24 -%}
 <svg class="icon{% if include.class %} {{ include.class }}{% endif %}" width="{{ s }}" height="{{ s }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{% case include.name %}
   {% when "activity" %}<path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"/>
   {% when "arrow-left-right" %}<path d="M8 3 4 7l4 4"/><path d="M4 7h16"/><path d="m16 21 4-4-4-4"/><path d="M20 17H4"/>
