@@ -1,9 +1,9 @@
 /* Advantec Global Services — site styles
    Built from the Advantec Design System (claude.ai/design session).
    Space Grotesk = headlines/wordmark, Inter = body/UI, JetBrains Mono = stats/labels.
-   Green #1eb980 marks actions & emphasis only. */
-
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
+   Green #1eb980 marks actions & emphasis only.
+   Fonts are loaded via <link> in the layout <head>, not @import here, so the
+   font CSS fetches in parallel with this file instead of chaining behind it. */
 
 /* ============ Tokens: color ============ */
 :root {
@@ -187,6 +187,9 @@ code, pre, kbd {
   color: var(--green-600);
 }
 .eyebrow-on-dark { color: var(--link-on-dark); }
+
+/* Inline SVG icons (see _includes/icon.html) */
+.icon { display: inline-block; vertical-align: middle; flex: none; }
 
 /* ============ Logo (typographic wordmark + green slash) ============ */
 .logo {

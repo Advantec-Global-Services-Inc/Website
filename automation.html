@@ -55,32 +55,32 @@ permalink: /automation/
         <h2 style="font-size: var(--text-3xl); font-weight: 600; margin: 12px 0 0; max-width: 620px; text-wrap: balance">The work that eats your team&rsquo;s week.</h2>
         <div data-rsp="cards" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 40px">
             <div class="svc-card">
-                <i data-lucide="layers" class="card-icon"></i>
+                {% include icon.html name="layers" class="card-icon" %}
                 <h3>Image pipelines</h3>
                 <p>Golden images for Citrix, AVD, and Parallels RAS built, tested, and versioned automatically &mdash; no more hand-crafted templates.</p>
             </div>
             <div class="svc-card">
-                <i data-lucide="file-code" class="card-icon"></i>
+                {% include icon.html name="file-code" class="card-icon" %}
                 <h3>Infrastructure as code</h3>
                 <p>Landing zones, networks, and workspace environments defined in Terraform or Bicep &mdash; reviewed, repeatable, and rollback-safe.</p>
             </div>
             <div class="svc-card">
-                <i data-lucide="terminal" class="card-icon"></i>
+                {% include icon.html name="terminal" class="card-icon" %}
                 <h3>Scripting &amp; runbooks</h3>
                 <p>PowerShell and Python for the operational gaps &mdash; onboarding, cleanup, reporting &mdash; documented so anyone on your team can run them.</p>
             </div>
             <div class="svc-card">
-                <i data-lucide="calendar-clock" class="card-icon"></i>
+                {% include icon.html name="calendar-clock" class="card-icon" %}
                 <h3>Patch &amp; update orchestration</h3>
                 <p>Maintenance windows that run themselves &mdash; staged rollout, health checks, and automatic hold on failure.</p>
             </div>
             <div class="svc-card">
-                <i data-lucide="user-plus" class="card-icon"></i>
+                {% include icon.html name="user-plus" class="card-icon" %}
                 <h3>Provisioning workflows</h3>
                 <p>New hire to working desktop without a ticket queue &mdash; identity, licenses, and workspace assigned from one request.</p>
             </div>
             <div class="svc-card">
-                <i data-lucide="activity" class="card-icon"></i>
+                {% include icon.html name="activity" class="card-icon" %}
                 <h3>Monitoring &amp; self-healing</h3>
                 <p>Known failure patterns detected and remediated automatically &mdash; your team sees a log entry, not a 2am page.</p>
             </div>

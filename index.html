@@ -74,32 +74,32 @@ description: "Since 1994, Advantec has planned, built, and run digital workspace
         <h2 style="font-size: var(--text-3xl); font-weight: 600; margin: 12px 0 0; max-width: 560px; text-wrap: balance">Everything we do, one accountable partner.</h2>
         <div data-rsp="cards" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 40px">
             <a class="svc-card" href="{{ '/end-user-computing/' | relative_url }}">
-                <i data-lucide="monitor" class="card-icon"></i>
+                {% include icon.html name="monitor" class="card-icon" %}
                 <h3>End user computing</h3>
                 <p>Citrix and cloud-desktop environments your teams actually like using &mdash; designed, deployed, and managed.</p>
             </a>
             <a class="svc-card" href="{{ '/networking/' | relative_url }}">
-                <i data-lucide="network" class="card-icon"></i>
+                {% include icon.html name="network" class="card-icon" %}
                 <h3>Networking</h3>
                 <p>NetScaler application delivery, end to end &mdash; load balancing, Gateway, WAF, and GSLB.</p>
             </a>
             <a class="svc-card" href="{{ '/cloud/' | relative_url }}">
-                <i data-lucide="cloud" class="card-icon"></i>
+                {% include icon.html name="cloud" class="card-icon" %}
                 <h3>Cloud</h3>
                 <p>Landing zones, migration, and managed operations across Azure, AWS, and Google Cloud.</p>
             </a>
             <a class="svc-card" href="{{ '/migrations/' | relative_url }}">
-                <i data-lucide="arrow-left-right" class="card-icon"></i>
+                {% include icon.html name="arrow-left-right" class="card-icon" %}
                 <h3>Migrations</h3>
                 <p>Platform-to-platform moves &mdash; Citrix, VMware, F5, and cloud &mdash; sequenced so nothing critical breaks.</p>
             </a>
             <a class="svc-card" href="{{ '/automation/' | relative_url }}">
-                <i data-lucide="workflow" class="card-icon"></i>
+                {% include icon.html name="workflow" class="card-icon" %}
                 <h3>Automation</h3>
                 <p>Image pipelines, scripting, and infrastructure as code &mdash; the repetitive work your engineers shouldn&rsquo;t do by hand.</p>
             </a>
             <a class="svc-card" href="{{ '/contact/' | relative_url }}">
-                <i data-lucide="graduation-cap" class="card-icon"></i>
+                {% include icon.html name="graduation-cap" class="card-icon" %}
                 <h3>Team training</h3>
                 <p>Instructor-led, hands-on EUC courses &mdash; Citrix, Azure Virtual Desktop, Parallels RAS &mdash; taught by working engineers.</p>
             </a>
